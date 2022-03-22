@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- displays site properly based on user's device -->
 
     <link
@@ -14,26 +15,26 @@
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- redering elements normally -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- main css file  -->
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <div class="container">
-    <h1>
-      10,000+ of our users love our products.
-    </h1>
-    <div class="content">
-      We only provide great products combined with excellent customer service.
-      See what our satisfied customers are saying about our services.
-    </div>
+      <div class="header">
+        <h1>
+          10,000+ of our users love our products.
+        </h1>
+        <div class="content">
+          We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.
+        </div>
+      </div>
     <div class="rating">
       <div class="icons">
         <img src="./images/icon-star.svg" alt="">
@@ -70,59 +71,61 @@
         Rated 5 Stars in BestTech
       </div>
     </div>
-    <div class="box">
-      <div class="avatar">
-        <img src="./images/image-colton.jpg" alt="">
-        <div class="info">
-          <div class="name">
-            Colton Smith
+    <div class="boxes">
+      <div class="box">
+        <div class="avatar">
+          <img src="./images/image-colton.jpg" alt="">
+          <div class="info">
+            <div class="name">
+              Colton Smith
+            </div>
+            <div class="veri">
+              Verified Buyer
+            </div>
           </div>
-          <div class="veri">
-            Verified Buyer
+          <div class="box-content">
+            "We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"
           </div>
         </div>
-        <div class="box-content">
-          "We needed the same printed design as the one we had ordered a week prior.
-          Not only did they find the original order, but we also received it in time.
-          Excellent!"
+      </div>
+      <div class="box">
+        <div class="avatar">
+          <img src="./images/image-irene.jpg" alt="">
+          <div class="info">
+            <div class="name">
+              Irene Roberts
+            </div>
+            <div class="veri">
+              Verified Buyer
+            </div>
+          </div>
+          <div class="box-content">
+            "Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="avatar">
+          <img src="./images/image-anne.jpg" alt="">
+          <div class="info">
+            <div class="name">
+              Anne Wallace
+            </div>
+            <div class="veri">
+              Verified Buyer
+            </div>
+          </div>
+          <div class="box-content">
+            "Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"
+          </div>
         </div>
       </div>
     </div>
-    <div class="box">
-      <div class="avatar">
-        <img src="./images/image-irene.jpg" alt="">
-        <div class="info">
-          <div class="name">
-            Irene Roberts
-          </div>
-          <div class="veri">
-            Verified Buyer
-          </div>
-        </div>
-        <div class="box-content">
-          "Customer service is always excellent and very quick turn around. Completely
-          delighted with the simplicity of the purchase and the speed of delivery."
-        </div>
-      </div>
     </div>
-    <div class="box">
-      <div class="avatar">
-        <img src="./images/image-anne.jpg" alt="">
-        <div class="info">
-          <div class="name">
-            Anne Wallace
-          </div>
-          <div class="veri">
-            Verified Buyer
-          </div>
-        </div>
-        <div class="box-content">
-          "Put an order with this company and can only praise them for the very high
-          standard. Will definitely use them again and recommend them to everyone!"
-        </div>
-      </div>
-    </div>
-  </div>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
